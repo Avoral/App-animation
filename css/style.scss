@@ -1,0 +1,42 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+$secondary-color: #fff;
+
+body {
+  color: $primary-color;
+  font: 100% $font-stack;
+}
+
+.guzik {
+  color: $secondary-color;
+  background: $primary-color;
+  min-height: 130px;
+  border-radius: 50px;
+  padding: 12px;
+  width: 100px;
+  text-align: center;
+  font-size: 1em;
+  .plus{
+    position:relative;
+    font-size: 34px;
+    font-weight: 100;
+    line-height: 30px;
+    text-align: center;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .rotate {
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+
+   }
+}
+
+.paralax-bg{
+  background: url('../img/paralax-div-bg.png');
+  overflow: hidden;
+}

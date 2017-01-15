@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="../app/css/style.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-4">
+      <h1>Heading</h1>
+      <div class="guzik" data-button="">
+        Lorem ipsum dolor sit amet, consectetur
+        <div class="av-rotate">
+          +
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-4">
+      <p>Lorem ipsum dolor sit <mark>amet</mark>, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <div class="col-xs-4">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </div>
+  </div>
+
+
+
+<div class="container-fluid paralax-bg">
+  <div id="container" class="">
+		<ul id="scene" class="scene"
+    clipRelativeInput="true"
+  data-calibrate-x="true"
+  data-calibrate-y="true"
+  data-invert-x="false"
+  data-invert-y="true"
+  data-limit-x="true"
+  data-limit-y="true"
+  data-scalar-x="2"
+  data-scalar-y="8"
+  data-friction-x="0.2"
+  data-friction-y="0.8"
+  data-origin-x="0.0"
+  data-origin-y="1.0">
+			<li class="layer" data-depth="0.1"><img class="img-responsive" src="img/03.png"></li>
+			<li class="layer" data-depth="0.5"><img class="img-responsive" src="img/02.png"></li>
+			<li class="layer" data-depth="0.7"><img class="img-responsive" src="img/01.png"></li>
+    </div>
+</div
+
+
+
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/parallax-master/deploy/parallax.js"></script>
+  <script src="js/app.js"></script>
+	<script>
+
+	// Pretty simple huh?
+	var scene = document.getElementById('scene');
+	var parallax = new Parallax(scene);
+
+	</script>
+
+
+</body>
